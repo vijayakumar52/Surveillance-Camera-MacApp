@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5BFDF1120EA731F00CDA54E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BFDF1020EA731F00CDA54E /* AppDelegate.swift */; };
+		A5BFDF1320EA731F00CDA54E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BFDF1220EA731F00CDA54E /* ViewController.swift */; };
+		A5BFDF1520EA732100CDA54E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BFDF1420EA732100CDA54E /* Assets.xcassets */; };
+		A5BFDF1820EA732100CDA54E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BFDF1620EA732100CDA54E /* Main.storyboard */; };
+		A5BFDF2420EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BFDF2320EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftTests.swift */; };
+		A5BFDF2F20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BFDF2E20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5BFDF2020EA732100CDA54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BFDF0520EA731F00CDA54E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BFDF0C20EA731F00CDA54E;
+			remoteInfo = Surveillance_Camera_MacApp_Swift;
+		};
+		A5BFDF2B20EA732100CDA54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BFDF0520EA731F00CDA54E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BFDF0C20EA731F00CDA54E;
+			remoteInfo = Surveillance_Camera_MacApp_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5BFDF0D20EA731F00CDA54E /* Surveillance_Camera_MacApp_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Surveillance_Camera_MacApp_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BFDF1020EA731F00CDA54E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5BFDF1220EA731F00CDA54E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5BFDF1420EA732100CDA54E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5BFDF1720EA732100CDA54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5BFDF1920EA732100CDA54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BFDF1A20EA732100CDA54E /* Surveillance_Camera_MacApp_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Surveillance_Camera_MacApp_Swift.entitlements; sourceTree = "<group>"; };
+		A5BFDF1F20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Surveillance_Camera_MacApp_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BFDF2320EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surveillance_Camera_MacApp_SwiftTests.swift; sourceTree = "<group>"; };
+		A5BFDF2520EA732100CDA54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BFDF2A20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Surveillance_Camera_MacApp_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BFDF2E20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surveillance_Camera_MacApp_SwiftUITests.swift; sourceTree = "<group>"; };
+		A5BFDF3020EA732100CDA54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5BFDF0A20EA731F00CDA54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFDF1C20EA732100CDA54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFDF2720EA732100CDA54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5BFDF0420EA731F00CDA54E = {
+			isa = PBXGroup;
+			children = (
+				A5BFDF0F20EA731F00CDA54E /* Surveillance_Camera_MacApp_Swift */,
+				A5BFDF2220EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftTests */,
+				A5BFDF2D20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftUITests */,
+				A5BFDF0E20EA731F00CDA54E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BFDF0E20EA731F00CDA54E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFDF0D20EA731F00CDA54E /* Surveillance_Camera_MacApp_Swift.app */,
+				A5BFDF1F20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftTests.xctest */,
+				A5BFDF2A20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BFDF0F20EA731F00CDA54E /* Surveillance_Camera_MacApp_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFDF1020EA731F00CDA54E /* AppDelegate.swift */,
+				A5BFDF1220EA731F00CDA54E /* ViewController.swift */,
+				A5BFDF1420EA732100CDA54E /* Assets.xcassets */,
+				A5BFDF1620EA732100CDA54E /* Main.storyboard */,
+				A5BFDF1920EA732100CDA54E /* Info.plist */,
+				A5BFDF1A20EA732100CDA54E /* Surveillance_Camera_MacApp_Swift.entitlements */,
+			);
+			path = Surveillance_Camera_MacApp_Swift;
+			sourceTree = "<group>";
+		};
+		A5BFDF2220EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFDF2320EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftTests.swift */,
+				A5BFDF2520EA732100CDA54E /* Info.plist */,
+			);
+			path = Surveillance_Camera_MacApp_SwiftTests;
+			sourceTree = "<group>";
+		};
+		A5BFDF2D20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5BFDF2E20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftUITests.swift */,
+				A5BFDF3020EA732100CDA54E /* Info.plist */,
+			);
+			path = Surveillance_Camera_MacApp_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5BFDF0C20EA731F00CDA54E /* Surveillance_Camera_MacApp_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BFDF3320EA732100CDA54E /* Build configuration list for PBXNativeTarget "Surveillance_Camera_MacApp_Swift" */;
+			buildPhases = (
+				A5BFDF0920EA731F00CDA54E /* Sources */,
+				A5BFDF0A20EA731F00CDA54E /* Frameworks */,
+				A5BFDF0B20EA731F00CDA54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Surveillance_Camera_MacApp_Swift;
+			productName = Surveillance_Camera_MacApp_Swift;
+			productReference = A5BFDF0D20EA731F00CDA54E /* Surveillance_Camera_MacApp_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5BFDF1E20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BFDF3620EA732100CDA54E /* Build configuration list for PBXNativeTarget "Surveillance_Camera_MacApp_SwiftTests" */;
+			buildPhases = (
+				A5BFDF1B20EA732100CDA54E /* Sources */,
+				A5BFDF1C20EA732100CDA54E /* Frameworks */,
+				A5BFDF1D20EA732100CDA54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5BFDF2120EA732100CDA54E /* PBXTargetDependency */,
+			);
+			name = Surveillance_Camera_MacApp_SwiftTests;
+			productName = Surveillance_Camera_MacApp_SwiftTests;
+			productReference = A5BFDF1F20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5BFDF2920EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BFDF3920EA732100CDA54E /* Build configuration list for PBXNativeTarget "Surveillance_Camera_MacApp_SwiftUITests" */;
+			buildPhases = (
+				A5BFDF2620EA732100CDA54E /* Sources */,
+				A5BFDF2720EA732100CDA54E /* Frameworks */,
+				A5BFDF2820EA732100CDA54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5BFDF2C20EA732100CDA54E /* PBXTargetDependency */,
+			);
+			name = Surveillance_Camera_MacApp_SwiftUITests;
+			productName = Surveillance_Camera_MacApp_SwiftUITests;
+			productReference = A5BFDF2A20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5BFDF0520EA731F00CDA54E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Vijayakumar M";
+				TargetAttributes = {
+					A5BFDF0C20EA731F00CDA54E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A5BFDF1E20EA732100CDA54E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A5BFDF0C20EA731F00CDA54E;
+					};
+					A5BFDF2920EA732100CDA54E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A5BFDF0C20EA731F00CDA54E;
+					};
+				};
+			};
+			buildConfigurationList = A5BFDF0820EA731F00CDA54E /* Build configuration list for PBXProject "Surveillance_Camera_MacApp_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5BFDF0420EA731F00CDA54E;
+			productRefGroup = A5BFDF0E20EA731F00CDA54E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5BFDF0C20EA731F00CDA54E /* Surveillance_Camera_MacApp_Swift */,
+				A5BFDF1E20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftTests */,
+				A5BFDF2920EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5BFDF0B20EA731F00CDA54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BFDF1520EA732100CDA54E /* Assets.xcassets in Resources */,
+				A5BFDF1820EA732100CDA54E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFDF1D20EA732100CDA54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFDF2820EA732100CDA54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BFDF0920EA731F00CDA54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BFDF1320EA731F00CDA54E /* ViewController.swift in Sources */,
+				A5BFDF1120EA731F00CDA54E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFDF1B20EA732100CDA54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BFDF2420EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BFDF2620EA732100CDA54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BFDF2F20EA732100CDA54E /* Surveillance_Camera_MacApp_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5BFDF2120EA732100CDA54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BFDF0C20EA731F00CDA54E /* Surveillance_Camera_MacApp_Swift */;
+			targetProxy = A5BFDF2020EA732100CDA54E /* PBXContainerItemProxy */;
+		};
+		A5BFDF2C20EA732100CDA54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BFDF0C20EA731F00CDA54E /* Surveillance_Camera_MacApp_Swift */;
+			targetProxy = A5BFDF2B20EA732100CDA54E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5BFDF1620EA732100CDA54E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BFDF1720EA732100CDA54E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5BFDF3120EA732100CDA54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5BFDF3220EA732100CDA54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A5BFDF3420EA732100CDA54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Surveillance_Camera_MacApp_Swift/Surveillance_Camera_MacApp_Swift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Surveillance_Camera_MacApp_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Surveillance-Camera-MacApp-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A5BFDF3520EA732100CDA54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Surveillance_Camera_MacApp_Swift/Surveillance_Camera_MacApp_Swift.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Surveillance_Camera_MacApp_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Surveillance-Camera-MacApp-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		A5BFDF3720EA732100CDA54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Surveillance_Camera_MacApp_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Surveillance-Camera-MacApp-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Surveillance_Camera_MacApp_Swift.app/Contents/MacOS/Surveillance_Camera_MacApp_Swift";
+			};
+			name = Debug;
+		};
+		A5BFDF3820EA732100CDA54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Surveillance_Camera_MacApp_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Surveillance-Camera-MacApp-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Surveillance_Camera_MacApp_Swift.app/Contents/MacOS/Surveillance_Camera_MacApp_Swift";
+			};
+			name = Release;
+		};
+		A5BFDF3A20EA732100CDA54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Surveillance_Camera_MacApp_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Surveillance-Camera-MacApp-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Surveillance_Camera_MacApp_Swift;
+			};
+			name = Debug;
+		};
+		A5BFDF3B20EA732100CDA54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Surveillance_Camera_MacApp_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Surveillance-Camera-MacApp-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Surveillance_Camera_MacApp_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5BFDF0820EA731F00CDA54E /* Build configuration list for PBXProject "Surveillance_Camera_MacApp_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BFDF3120EA732100CDA54E /* Debug */,
+				A5BFDF3220EA732100CDA54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BFDF3320EA732100CDA54E /* Build configuration list for PBXNativeTarget "Surveillance_Camera_MacApp_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BFDF3420EA732100CDA54E /* Debug */,
+				A5BFDF3520EA732100CDA54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BFDF3620EA732100CDA54E /* Build configuration list for PBXNativeTarget "Surveillance_Camera_MacApp_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BFDF3720EA732100CDA54E /* Debug */,
+				A5BFDF3820EA732100CDA54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BFDF3920EA732100CDA54E /* Build configuration list for PBXNativeTarget "Surveillance_Camera_MacApp_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BFDF3A20EA732100CDA54E /* Debug */,
+				A5BFDF3B20EA732100CDA54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5BFDF0520EA731F00CDA54E /* Project object */;
+}
